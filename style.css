@@ -1,0 +1,195 @@
+header {
+	text-align:center;
+	padding:1em;
+	margin-left:0%;
+	margin-right:1%;
+	font-size:150%;
+}
+
+.tete1 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-weight: bold;
+	font-size:150%;
+	color: black;
+}
+
+.tete2 {
+	font-weight:bold;
+	color:black;
+}
+
+
+#menu-vertical {
+	background-color:black;
+	height:34px;
+}
+
+body {
+	padding:0;
+	margin:0;
+}
+
+h3 {
+	margin-left:1em;
+}
+
+#menu-vertical ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align:center;
+}
+
+#menu-vertical li {
+	float:left;
+	margin:auto;
+	padding:0;
+	background-color:black;
+}
+
+#menu-vertical li a {
+	display:block;
+	width:100px;
+	color:white;
+	text-decoration:none;
+	padding:5px;
+}
+
+#menu-vertical li a:hover {
+	color:#DDF700;
+}
+
+#menu-vertical ul li ul {
+	display:none;
+}
+
+#menu-vertical ul li:hover ul {
+	display:block;
+}
+
+#menu-vertical li:hover ul li {
+	float:none;
+}
+
+#menu-vertical li ul {
+	position:absolute;
+}
+
+#content {
+	margin-left:2%;
+}
+
+#deconnect {
+	height:30px;
+	background-color:black;
+	color:white;
+	float:right;
+}
+
+#chapitre {
+	margin-top:1em;
+	margin-bottom:0.5em;
+	margin-right:5em;
+	border-bottom-color:lightblue;
+	border-bottom-style:solid;
+	border-bottom-width:0.5em;
+	border-left-color:lightblue;
+	border-left-style:solid;
+	border-left-width:0.5em;
+	border-right-color:lightblue;
+	border-right-style:solid;
+	border-right-width:0.5em;
+	border-top-color:lightblue;
+	border-top-style:solid;
+	border-top-width:2em;	
+}
+
+#chapitre-controle {
+	margin-top:1em;
+	margin-bottom:0.5em;
+	margin-right:5em;
+	border-bottom-color:LightCoral;
+	border-bottom-style:solid;
+	border-bottom-width:0.5em;
+	border-left-color:LightCoral;
+	border-left-style:solid;
+	border-left-width:0.5em;
+	border-right-color:LightCoral;
+	border-right-style:solid;
+	border-right-width:0.5em;
+	border-top-color:LightCoral;
+	border-top-style:solid;
+	border-top-width:2em;	
+}
+
+#chapitre-maison {
+	margin-top:1em;
+	margin-bottom:0.5em;
+	margin-right:5em;
+	border-bottom-color:MediumSeaGreen;
+	border-bottom-style:solid;
+	border-bottom-width:0.5em;
+	border-left-color:MediumSeaGreen;
+	border-left-style:solid;
+	border-left-width:0.5em;
+	border-right-color:MediumSeaGreen;
+	border-right-style:solid;
+	border-right-width:0.5em;
+	border-top-color:MediumSeaGreen;
+	border-top-style:solid;
+	border-top-width:2em;	
+}
+
+#details-chapitre {
+	margin-left:1em;
+}
+
+#E404 {
+	margin-left: auto;
+    margin-right: auto;
+	text-align:center;
+    width: 12em;
+	font-weight:bold;
+}
+
+#E404T {
+	font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+
+#footer {
+	margin-top:0.5em;
+	height:1px;
+	background-color:black;
+}
+
+#foot {
+	margin-top:0;
+	margin-left:1em;
+}
+
+.split {
+	height: 100%;
+	width: 65%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.left {
+	left: 0;
+}
+
+.right {
+	right: 0;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
